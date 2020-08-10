@@ -1,4 +1,4 @@
--- 菜单
+﻿-- 菜单
 CREATE TABLE `sys_menu` (
   `menu_id` bigint NOT NULL AUTO_INCREMENT,
   `parent_id` bigint COMMENT '父菜单ID，一级菜单为0',
